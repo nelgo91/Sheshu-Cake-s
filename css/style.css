@@ -42,9 +42,10 @@ body{
 .menu{
     width: 200px;
     position: absolute;
-    top: 48px;
+    top: -206px;
+    z-index: -1;
     right: 0px;
-    display: none;
+    transition: 250ms;
 }
 .menu li{
     list-style: none;
@@ -60,5 +61,21 @@ body{
     background-color: #F594C8;
 }
 .checkbox:checked ~ .menu{
-    display: block;
+    top: 48px;
+}
+
+@media (min-width: 560px){
+    .checkbox, .abrirmenuhamb, .cerrarmenuhamb{
+        display: none;
+    }
+    .menu{
+        top: 0;z-index: 1;
+        width: unset;
+        display: flex;
+        height: 48px;
+    }
+    .menu a{
+        height: 48px;
+        padding: 14px 12px 6px;
+    }
 }
