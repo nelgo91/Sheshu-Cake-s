@@ -8,9 +8,15 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #D3A5F6;
 }
-
+.logo img{
+    width: 60px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
 .navbar{
-    background-color: #e3f2fd;
+    background-color: #A4E6FA;
     height: 48px;
     padding: 10px 12px;
     position: relative;
