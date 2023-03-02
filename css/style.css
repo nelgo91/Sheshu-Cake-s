@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #D3A5F6;
+}
+
+.navbar{
+    background-color: #e3f2fd;
+    height: 48px;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.checkbox, .abrirmenuhamb, .cerrarmenuhamb{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+}
+.abrirmenuhamb, .cerrarmenuhamb{
+    pointer-events: none;
+}
+.checkbox{
+    opacity: 0;
+}
+.cerrarmenuhamb{
+    display: none;
+}
+.checkbox:checked ~ .abrirmenuhamb{
+    display: none;
+}
+.checkbox:checked ~ .cerrarmenuhamb{
+    display: block;
+}
+.menu{
+    width: 200px;
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    display: none;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    background-color: #EBD591;
+    display: block;
+    padding: 10px 12px;
+}
+.menu li a:hover{
+    background-color: #F594C8;
+}
+.checkbox:checked ~ .menu{
+    display: block;
+}
