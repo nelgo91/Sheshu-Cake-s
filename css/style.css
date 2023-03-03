@@ -38,3 +38,28 @@ header nav{
 .navbar-brand{
     color:#895FF5;
 }
+/* MAIN */
+main{
+    background-color: #EBD591;
+}
+.card-body {
+    background-color: #F594C8;
+}
+.container{
+    background-color: #EBD591;
+}
+.card{
+    border: 4px solid white !important ;
+}
+/* FOOTER */
+footer{
+    background-color: #A4E6FA;
+    padding: 20px;
+    align-items: center;
+}
+.container{
+    padding: 20px;
+}
+.container__footer{
+    background-color: #A4E6FA;
+}
