@@ -43,7 +43,7 @@ main{
     background-color: #EBD591;
 }
 .carousel-item{
-    height: 35rem;
+    height: 30rem;
     background-position: center;
     background-size: cover;
 }
@@ -55,6 +55,7 @@ main{
     border: 1px solid black;
 }
 .card-header{
+    align-items: center;
     text-align: center;
     background-color: #F594C8;
 }
