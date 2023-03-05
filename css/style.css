@@ -39,12 +39,28 @@ header nav{
     color:#895FF5;
 }
 /* MAIN */
+main{
+    background-color: #EBD591;
+}
 .carousel-item{
     height: 35rem;
     background-position: center;
     background-size: cover;
 }
-
+.container{
+    background-color: #EBD591;
+}
+.card-body{
+    background-color: #F594C8;
+    border: 1px solid black;
+}
+.card-header{
+    text-align: center;
+    background-color: #F594C8;
+}
+.card{
+    border: solid black !important;
+}
 /* FOOTER */
 footer{
     background-color: #A4E6FA;
