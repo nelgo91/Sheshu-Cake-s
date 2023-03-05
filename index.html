@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-            <a class="navbar-brand" href="..index.html">Sheshu Cake's <img src="./img/logo.png" alt="" width="60px"></a>
+            <a class="navbar-brand" href="">Sheshu Cake's <img src="./img/logo.png" alt="" width="60px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,40 +43,59 @@
     </header>
 
     <main>
-        <section class="menu">
-            <img src="./img/fondomain.jpg" alt="" width="100%">
-        </section>
 
-        <section class="container">
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="./img/torta.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                        <h5 class="card-title">Pasteleria</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="./img/budines.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                        <h5 class="card-title">Reposteria</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="./img/pancitos.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                        <h5 class="card-title">Panaderia</h5>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h1> Bienvenidos a Sheshu Cake's <img src="./img/logo.png" alt="" width="45px"></h1>
                 </div>
 
+                <div class="card-body">
+                    <div id="carrusel-propio" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carrusel-propio" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#carrusel-propio" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carrusel-propio" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="background-image: url(./img/torta.jpg);">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pasteleria</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="background-image: url(./img/budines.jpg);">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Reposteria</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="background-image: url(./img/pancitos.jpg);">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Panaderia</h5>
+                            </div>
+                        </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-propio" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-propio" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+
+
+
+
+
+
+                    </div>
+                </div>
             </div>
-
-        </section>
+        </div>
     </main>
 
     <footer>
