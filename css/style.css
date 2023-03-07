@@ -74,7 +74,41 @@ footer{
 .container__footer{
     background-color: #A4E6FA;
 }
-/* PAGINA-CONTACTO */
+/* PAGINA-PRODUCTO */
+main.main_producto{
+    width: 100%;
+    height: 100%;
+}
+.contenedor_tarjeta{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+.tarjeta_producto{
+    width: 100%;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0,0,0,0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.contenedor_tarjeta .tarjeta_producto:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0,0,0,0.2);
+}
+.contenedor_tarjeta .tarjeta_producto img{
+    width: 330px;
+    height: 220px;
+}
+.contenedor_tarjeta .tarjeta_producto h2{
+    font-weight: 600;
+}
+
 
 /* PAGINA-PREGUNTAS FRECUENTES */
 .accordion-button{
