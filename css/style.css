@@ -79,6 +79,14 @@ main.main_producto{
     width: 100%;
     height: 100%;
 }
+.main_producto .titulo_productos{
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #F594C8;
+}
 .contenedor_tarjeta{
     width: 100%;
     margin: auto;
