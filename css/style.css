@@ -150,11 +150,14 @@ main.main_producto{
     background-color: #F594C8 !important;
     text-align: center !important;
 }
-/* CONTACTO */
+/* PAGINA-CONTACTO */
 .contactanos .titulo{
     display: flex;
     justify-content: center;
     align-items: center;
+    border:2px solid black;
+    border-radius: 8px;
+    background-color: #F594C8;
 }
 .box{
     position: relative;
@@ -260,3 +263,4 @@ main.main_producto{
         width: 100%;
     }
 }
+/* PAGINA DE SERVICIOS /*
