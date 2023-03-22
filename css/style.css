@@ -154,8 +154,6 @@ main.main_producto{
 main{
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
     display: grid;
     align-items: center;
     background-color: #EBD591;
