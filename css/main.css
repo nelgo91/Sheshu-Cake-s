@@ -1,7 +1,34 @@
+header {
+  background-color: #A4E6FA; }
+  header .navbar-collapse {
+    justify-content: flex-end; }
+  header .navbar-nav {
+    background-color: #EBD591;
+    align-items: center; }
+  header .navbar-nav a:hover {
+    background-color: #F594C8; }
+  header .navbar-toggler {
+    background-color: #F594C8 !important;
+    border: 1px solid #895FF5 !important; }
+  header .navbar-toggler:focus {
+    box-shadow: none; }
+  header .navbar-toggler-icon {
+    filter: invert(49%) sepia(69%) saturate(5794%) hue-rotate(238deg) brightness(102%) contrast(92%); }
+  header .nav-link {
+    text-align: center; }
+  header .nav-link a:hover {
+    background-color: #F594C8; }
+  header .navbar-brand {
+    color: #895FF5; }
+
 footer {
   background-color: #A4E6FA;
   padding: 20px;
   align-items: center; }
+  footer .container {
+    padding: 20px; }
+  footer .container__footer {
+    background-color: #A4E6FA; }
 
 .index {
   background-color: #EBD591; }

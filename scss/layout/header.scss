@@ -1,0 +1,33 @@
+header{
+    background-color: #A4E6FA;
+    
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-nav{
+    background-color: #EBD591;
+    align-items: center;
+    }
+    .navbar-nav a:hover{
+        background-color: #F594C8;
+    }
+    .navbar-toggler{
+        background-color: #F594C8 !important;
+        border: 1px solid #895FF5 !important ;
+    }    
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler-icon{
+        filter: invert(49%) sepia(69%) saturate(5794%) hue-rotate(238deg) brightness(102%) contrast(92%);
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .nav-link a:hover{
+        background-color: #F594C8;
+    }
+    .navbar-brand{
+        color:#895FF5;
+    }
+}
