@@ -79,6 +79,51 @@ footer {
     color: white;
     animation: pulse .5s ease-in-out infinite; }
 
+.tarj-servicios {
+  background-color: #EBD591;
+  padding: 10px; }
+  .tarj-servicios .tarj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: center; }
+  .tarj-servicios .tarj {
+    background: #F594C8;
+    width: 250px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all .3s ease-in; }
+  .tarj-servicios .tarj .tarj-img {
+    height: 150px;
+    width: 150px;
+    border: 5px double black;
+    border-radius: 500px;
+    background-position: center center;
+    background-size: cover; }
+  .tarj-servicios .tarj .tarj-titulo {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px black; }
+  .tarj-servicios .tarj:nth-child(1) .tarj-img {
+    background-image: url(../img/servdelunch.png); }
+  .tarj-servicios .tarj:nth-child(2) .tarj-img {
+    background-image: url(../img/servdulces.png); }
+  .tarj-servicios .tarj:nth-child(3) .tarj-img {
+    background-image: url(../img/servsalado.png); }
+  .tarj-servicios .tarj:hover {
+    background: #895FF5;
+    color: #EBD591;
+    box-shadow: 0px 0px 11px 5px black; }
+
 footer {
   background-color: #A4E6FA;
   padding: 20px;
