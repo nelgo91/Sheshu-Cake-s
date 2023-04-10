@@ -48,6 +48,37 @@ footer {
   .index .card {
     border: solid black !important; }
 
+.productos {
+  background-color: #EBD591;
+  padding: 10px; }
+  .productos .title {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #F594C8; }
+  .productos .card {
+    text-align: center !important;
+    border: none !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px;
+    background-color: #F594C8; }
+  .productos .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px 20px; }
+  .productos .card-body {
+    border-radius: 8px; }
+  .productos .btn {
+    background-color: #895FF5;
+    border: none;
+    color: white;
+    transition: all .6s ease-in;
+    margin: 5px;
+    padding: 10px 20px; }
+  .productos .btn:hover {
+    background-color: #EBD591;
+    color: white;
+    animation: pulse .5s ease-in-out infinite; }
+
 footer {
   background-color: #A4E6FA;
   padding: 20px;
