@@ -31,7 +31,8 @@ footer {
     background-color: #A4E6FA; }
 
 .index {
-  background-color: #EBD591; }
+  background-color: #EBD591;
+  padding: 10px; }
   .index .carousel-item {
     height: 30rem;
     background-position: center;
