@@ -3,6 +3,24 @@ footer {
   padding: 20px;
   align-items: center; }
 
+.index {
+  background-color: #EBD591; }
+  .index .carousel-item {
+    height: 30rem;
+    background-position: center;
+    background-size: cover; }
+  .index .container {
+    background-color: #EBD591; }
+  .index .card-body {
+    background-color: #F594C8;
+    border: 1px solid black; }
+  .index .card-header {
+    align-items: center;
+    text-align: center;
+    background-color: #F594C8; }
+  .index .card {
+    border: solid black !important; }
+
 footer {
   background-color: #A4E6FA;
   padding: 20px;
